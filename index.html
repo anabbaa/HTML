@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Link ip address which local and united  for all and the second number is the port number
+After element press tab to move a little bit and shift tab to back this is for formatting
+Attribute 
+
+Contenteditable = true when you want let users edit paragraph
+Doctype is to let browser to render 
+
+If i donot define it then the browser will render it in random mood
+Browser ignore spaces
+
+Block Element:
+H
+P
+Form
+Div
+Ol
+Ul
+Hr
+All semantic element are block
+
+Inline Element:
+Anchor
+span
+Input
+Img
+strong
+
+
+
+-->
+        <meta content="UTF-8"/>
+        <meta name="description" content="about me"/>
+        <meta name="author" content="Ahmed Nabbaa"/>
+        <meta name="keywords" content="ahmed nabbaa developer css html javascript
+         syria dci germany hamburg"/>
+         <!-- Word “two words”
+Word oneword
+-->
+        <meta name="viewport" content="device-width, initial-scale=1.0"/>
+        <title>Ahmed Nabbaa</title>
+      </head>
+
+        <body>
+            <p>Lorem <strong>ipsum</strong> dolor <mark>sit</mark> amet <b>consectetur</b> 
+                <I>adipisicing</I> elit.
+                <em>Dolor</em> ad <U>commodi</U> necessitatibus <small>voluptatem</small> 
+                 doloremque, <del>error</del> sequi
+                 <s>beatae</s>beatae<ins>itaque</ins> itaque<sup>repellat</sup> ! Ullam natus eveniet nisi dicta ipsum reiciendis
+                  ratione aaa<sub>2</sub>aaab .</p>
+
+                  <a href="">ggggg</a>
+
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+
+                  <ol value="5ß" type="i" start="100" reversed>
+                    <lil></lil>
+                    <lil></lil>
+                    <lil></lil>
+                  </ol>
+
+                  <dl>
+                    <dd> <!--term-->
+                        <td></td><!--description-->
+                    </dd>
+                  </dl>
+
+                  <table >
+                    <caption></caption>
+                    <th>
+                      
+                    </th>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                              <td colspan="2"></td>
+                              <td></td>
+                          </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+
+                  </table>
+
+                  <!--Entities
+                    &lt;any thing&gt;
+                -->
+                <figure>
+                    <img src=".7" tiltle=""  />
+                    <figcaption></figcaption>
+                </figure>
+
+                <audio controlos autoplay loop muted >
+                    <source src="" type="ooj">
+                    <source src="" type="ooj">
+                    your message
+                </audio>
+
+                <cideo controlos autoplay loop muted width="" height="" poster="./" >
+                    <source src="" type="ooj">
+                    <source src="" type="ooj">
+                    <track src="" kind="subtitle" srclang="en" label="English" >
+                    <!--track for subtitle and autoplay doea not work for chrome-->
+                    your message
+                </video>
+                <br>
+                <hr>
+
+                <form action="" method="get" novalidate target="_blank">
+                  <!--novalidate for testing it will send the form any way when you submit it
+                  target blank its to send info in another tab-->
+                  <labal>Test</labal>
+                  <input type="hiddem" />
+                  <input type="reset" />
+                  <input type="text" required disabled/><!--the difference between this and readonly
+                  is that you cannot send these info-->
+                  <input type="range" min="2" max="100" step="5" value="1"/>
+                  <input type="number" min="1" max="100" step="5" value="1" />
+                  <input type="password" name="pass" minlength="10" maxlength="22"/> 
+                  <!--name as query in link-->
+                  <input type="submit"/>
+                  <input type="button" autofocus/>
+                  <input type="time" />
+                
+                  <input type="radio" id="windows" alue="win"/>
+                  <label for="windows" ></label>
+                  <!--you link link to input by gives input id then in label for valu
+                  for it the same of id-->
+                  <!--the difference between radio and checkboy radio you can chose only
+                  one option in checkbox you can shoose more than one-->
+                  <input type="checkbox" checked/><!--checked it automitaccally checked but you can
+                     change it-->
+                  <input type="color"/>
+                  <input type="url"/>
+                  <input type="date"/>
+                  <input type="datetime" placeholder="juve"/>
+                  <input type="datetime-local"/>
+                  <input type="month"/>
+                  <input type="week"/>
+                  <input type="email" value="text" readonly/><!--readonly you cannot change you can
+                  send info but you cannot change them-->
+                  <input type="file"/>
+                  <input type="search"/>
+                  <!--here only if you clicked on ico it will clean the field-->
+                  <select label="romantic" multiple>
+                    <!--multiple to choose more than one option -->
+                    <optgroup>
+                      <option value="1" selected>book1</option>
+                      <option value="2">book2</option>
+                      <option value="3">book3</option>
+                    </optgroup>
+                  </select>
+                  <textarea cols="5" rows="5"></textarea>
+
+                  <input list="prog" />
+                  <datalist id="prog">
+                    <option value="1"></option>
+                  </datalist><!--here you can search in the field for an option-->
+                </form>
+
+                <q >juventus is the best team</q>
+                <blockquote>Juventus is the best</blockquote><!--this block q-->
+                <button>Juve</button>
+                <div>
+                  https://www.youtube.com/<wbr>watch?v=AzjtVtxoBLc&list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji&index=33
+                </div>
+                <!--wbr mak a break-->
+                <!--bdr isolated word from text-->
+                <bdo dir="rtr">
+                  This text will go right-to-left.
+                  </bdo>
+                  <code>button</code> 
+                  <pre>11111
+                    111
+                    111
+
+                    11
+                  </pre>
+                  <iframe src=""w idth="" height="" ></iframe>
+                  <!--lighthouse gives you report for your pronlems in your app-->
+                  <abbr title="World Health Organization">who</abbr>
+                  <kbd>ctrl</kbd><!--to define keybad-->
+                  <meter  value="2" min="0" max="10" high="8" low="2" optimum="5">2 out of 10</meter>
+                  <!--low red color op yellow high green color-->
+                  <progress  value="32" max="100"> 32% </progress>
+                  <summary></summary>
+
+                  <fieldset>
+                    <legend>Personal info</legend>
+                    <input type="text" name="name" placeholder="" id="1" />
+                    &#241;
+                    <input
+                      type="text"
+                      name="lastName"
+                      placeholder="Your last name"
+                      id="2"
+                    />
+                    <input type="datetime" name="bDay" id="3" />
+                  </fieldset>
+                  
+
+
+
+                  <!--accessibility-->
+                  <form>
+                    <label for="one" >Skill one</label>
+                    <input id="one" type="checkbox"/>
+                    <label for="twos">skill two</label>
+                    <input id="two" type="checkbox" />
+                  </form>
+
+                  <div role="checkbox" aria-checked="true" tabindex="0"
+                  aria-labelledby="plan0">plan one</div>
+                  <label id="plan0"></label>
+                  <div tabindex="0">plan two</div> 
+                  <div tabindex="0">plan three</div>
+                  <!--arialcheck for attribute checked arial labeldby to connect
+                  it to labe so screen reader can read it -->
+                  <!--tabindex 0 normal order and i can be focused
+                  tabindex -1 can be by queryselctor gocused by mrthod focus()
+                tabindex more than 1 to jump ti it directly -->
+                  
+                </body>
+</html>
