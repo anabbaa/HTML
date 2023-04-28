@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <!-- Link ip address which local and united  for all and the second number is the port number
+
 After element press tab to move a little bit and shift tab to back this is for formatting
 Attribute 
 
@@ -50,7 +51,17 @@ Word oneword-->
                  doloremque, <del>error</del> sequi
                  <s>beatae</s>beatae<ins>itaque</ins> itaque<sup>repellat</sup> ! Ullam natus eveniet nisi dicta ipsum reiciendis
                   ratione aaa<sub>2</sub>aaab .</p>
-                  <a href="">ggggg</a>
+                  <a href="'ahmed" target="" title="">ggggg</a>
+                  <a mailto="">contacts me</a>
+                  <!--
+_blank	Opens the linked document in a new window or tab
+_self	Opens the linked document in the same frame as it was clicked (this is default)
+_parent	Opens the linked document in the parent frame
+_top	Opens the linked document in the full body of the window
+#ahmed will go to some tag which has id of ahmed
+
+
+                  -->
 
                   <ul>
                     <li></li>
@@ -63,10 +74,10 @@ Word oneword-->
                     <lil></lil>
                     <lil></lil>
                   </ol>
-
+              
                   <dl>
                     <dd> <!--term-->
-                        <td></td><!--description-->
+                        <td></td><!--descriptionof the term-->
                     </dd>
                   </dl>
 
@@ -83,8 +94,11 @@ Word oneword-->
                     </tbody>
                     <tfoot></tfoot>
                   </table>
+                  <br />
+                  <hr /> <!-- hr user agent gives it customised style and it is block element-->
                   <!--Entities
-                    &lt;any thing&gt;
+                    &lt;any thing&gt; less than and bigger than 
+                    &copysr;
                 -->
                 <figure>
                     <img src=".7" tiltle=""  />
@@ -108,13 +122,20 @@ Word oneword-->
                 <hr>
 
                 <form action="" method="get" novalidate target="_blank">
+                  <!--
+                    action to send info to the file if i did not write any thing in it or if i did not
+                    wite this attrubute at all it will send them to the same page name aattribue
+                    to give every value query in the link
+                  -->
                   <!--novalidate for testing it will send the form any way when you submit it
                   target blank its to send info in another tab-->
+                  <!-- input is inline element-->
                   <labal>Test</labal>
                   <input type="hiddem" />
+                  <input type="color"/>
                   <input type="reset" />
-                  <input type="text" required disabled/><!--the difference between this and readonly
-                  is that you cannot send these info-->
+                  <input type="text" required disabled autofocus/><!--the difference between this and readonly
+                  is that you cannot send disabled info-->
                   <input type="range" min="2" max="100" step="5" value="1"/>
                   <input type="number" min="1" max="100" step="5" value="1" />
                   <input type="password" name="pass" minlength="10" maxlength="22"/> 
@@ -143,9 +164,10 @@ Word oneword-->
                   <input type="file"/>
                   <input type="search"/>
                   <!--here only if you clicked on ico it will clean the field-->
-                  <select label="romantic" multiple>
-                    <!--multiple to choose more than one option -->
-                    <optgroup>
+                  <select multiple>
+                    <!--multiple to choose more than one option by pressing ctrl-->
+                    <optgroup label="romantic">
+                      <!-- label to give every group labeö swlwcted to selectas a default-->
                       <option value="1" selected>book1</option>
                       <option value="2">book2</option>
                       <option value="3">book3</option>
@@ -163,30 +185,36 @@ Word oneword-->
                 </form>
 
                 <q >juventus is the best team</q>
-                <blockquote>Juventus is the best</blockquote><!--this block q-->
+                <blockquote>Juventus is the best</blockquote>
+                <!--this is blpck element q is inline element-->
                 <button>Juve</button>
                 <div>
                   https://www.youtube.com/<wbr>watch?v=AzjtVtxoBLc&list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji&index=33
                 </div>
-                <!--wbr mak a break-->
+                <!--wbr mak a break it will break after the word com-->
                 <!--bdr isolated word from text-->
                 <bdo dir="rtr">
                   This text will go right-to-left.
                   </bdo>
-                  <code>button</code> 
+                  <code> console.loh("")</code> 
+                  <!-- pre show the text as it is coded with spaces -->
                   <pre>11111
                     111
                     111
 
                     11
                   </pre>
-                  <iframe src=""w idth="" height="" ></iframe>
+                  <iframe src=""width="" height="" ></iframe>
                   <!--lighthouse gives you report for your pronlems in your app-->
+                  <hr/>
                   <abbr title="World Health Organization">who</abbr>
+                  <!-- this one make an abbreviation for an organisation for examble-->
+                  <hr/>
                   <kbd>ctrl</kbd><!--to define keybad-->
+                  <br/>
                   <meter  value="2" min="0" max="10" high="8" low="2" optimum="5">2 out of 10</meter>
                   <!--low red color op yellow high green color-->
-                  <progress  value="32" max="100"> 32% </progress>
+                  <progress  value="66" max="100"> 32% </progress>
                   <summary></summary>
 
                   <fieldset>
@@ -210,15 +238,14 @@ Word oneword-->
                     <input id="two" type="checkbox" />
                   </form>
 
-                  <div role="checkbox" aria-checked="true" tabindex="0"
-                  aria-labelledby="plan0">plan one</div>
-                  <label id="plan0"></label>
-                  <div tabindex="0">plan two</div> 
-                  <div tabindex="0">plan three</div>
+                  <div role="checkbox" aria-checked="true" tabindex="0" aria-labelledby="plan1">Plan One</div>
+                  <label id="plan1">Plan One Label</label>
+                  <div tabindex="0">Plan Two</div>
+                  <div tabindex="0">Plan Three</div>
                   <!--arialcheck for attribute checked arial labeldby to connect
                   it to labe so screen reader can read it -->
                   <!--tabindex 0 normal order and i can be focused
-                  tabindex -1 can be by queryselctor gocused by mrthod focus()
-                tabindex more than 1 to jump ti it directly -->        
+                  tabindex -1 can be by queryselctor focused by method focus()
+                tabindex more than 1 to jump to it directly -->        
                 </body>
 </html>
